@@ -3,6 +3,7 @@
  * Copyright (c) 2016 Cam Wiegert <cam@camwiegert.com> - https://camwiegert.github.io/in-view
  * License: MIT
  */
+function inView() {
 !(function(t, e) {
   'object' == typeof exports && 'object' == typeof module
     ? (module.exports = e())
@@ -334,3 +335,7 @@
     }
   ]);
 });
+}
+
+
+window.addEventListener('DOMContentLoaded', inView)
