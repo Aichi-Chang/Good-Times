@@ -4,9 +4,9 @@
 // insert our content into our desktop header
 function main() {
 
-  var inView = document.createElement('inView')
-  inView.src = 'js/in-view.js'
-  document.head.appendChild(inView)
+  // var inView = document.createElement('inView')
+  // inView.src = 'js/in-view.js'
+  // document.head.appendChild(inView)
 
   const header = document.querySelector('.header')
   const desktopHeader = document.querySelector('.header-desktop')
